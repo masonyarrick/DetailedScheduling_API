@@ -610,6 +610,16 @@
           "description" : "Identifies the use of the material.",
           "example" : "Consumed"
         },
+        "quantity" : {
+          "type" : "number",
+          "description" : "Specifies the amount of equipment resources required for the parent segment, if applicable.  Applies to each member of the equipment and equipment class sets.",
+          "example" : 1
+        },
+        "quantityUnitOfMeasure" : {
+          "type" : "string",
+          "description" : "The unit of measure of the associated quantity, if applicable.",
+          "example" : "Each"
+        },
         "spatialDefinition" : {
           "type" : "array",
           "description" : "The location or footprint of this item.",
