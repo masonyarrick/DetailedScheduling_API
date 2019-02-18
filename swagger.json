@@ -244,19 +244,6 @@
           "required" : true,
           "description" : "The identifier of the job list to retrieve.",
           "type" : "string"
-        }, {
-          "in" : "query",
-          "name" : "workType",
-          "type" : "string",
-          "format" : "date-time",
-          "required" : true,
-          "description" : "The type of work to find job lists for."
-        }, {
-          "in" : "query",
-          "name" : "minStartTime",
-          "type" : "string",
-          "required" : false,
-          "description" : "The minimum start time to return job lists by."
         } ],
         "responses" : {
           "201" : {
